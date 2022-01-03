@@ -1,4 +1,22 @@
-const topics = [
+export const constraints = {
+  simple: [
+    "starting vowel",
+    "> five letters",
+    "< five letters",
+    "adjective",
+    "verb",
+    "proper noun",
+    "person",
+    "3 word phrase",
+    "destination",
+    "nature",
+    "historical",
+  ],
+  complex: ["acronym", "real url", "emoji", "photo"],
+  physical: ["drawing", "interpretive dance", "selfie pose"],
+};
+
+export const topics = [
   [
     "Cartoons",
     "Children's Books",
@@ -85,7 +103,7 @@ const topics = [
     "Academic Probation",
     "Cafeteria",
     "Community College",
-    
+
     "Daycare",
     "Detention",
     "Dormitories",
@@ -872,4 +890,5 @@ const topics = [
   ],
 ];
 
-export default topics;
+const data = { constraints, topics };
+export default data;

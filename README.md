@@ -1,10 +1,13 @@
-# lexicon-topics
+# Lexicon Data
 
-An array of arrays of topics, grouped by general categories.
+constraints: An array of constraints for submissions.
+topics: An array of arrays of topics, grouped by general categories.
 
 ```js
-import topics from "lexicon-topics";
+import data from "lexicon-data";
 
-const randomGroup = topics[Math.floor(Math.random() * topics.length)];
-const randomTopic = randomGroup[Math.floor(Math.random() * randomGroup.length)];
+const { topics, constraints } = data;
+
+const group = topics[Math.floor(Math.random() * topics.length)];
+const topic = group[Math.floor(Math.random() * group.length)];
 ```

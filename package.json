@@ -1,8 +1,8 @@
 {
-  "name": "lexicon-topics",
+  "name": "lexicon-data",
   "version": "1.0.0",
   "main": "index.mjs",
-  "repository": "https://github.com/jakealbaugh/lexicon-topics",
+  "repository": "https://github.com/jakealbaugh/lexicon-data",
   "author": "Jake Albaugh <jake.albaugh@gmail.com>",
   "license": "MIT",
   "engines": {
