@@ -1,0 +1,13 @@
+{
+  "name": "lexicon-topics",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "repository": "https://github.com/jakealbaugh/lexicon-topics",
+  "author": "Jake Albaugh <jake.albaugh@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.17.0"
+  },
+  "type": "module",
+  "types": "index.d.ts"
+}
