@@ -1,4 +1,4 @@
-const lexiconConstraints = {
+export const lexiconConstraints = {
   simple: [
     "starting vowel",
     "> five letters",
@@ -17,7 +17,7 @@ const lexiconConstraints = {
   physical: ["drawing", "interpretive dance", "selfie pose"],
 };
 
-const lexiconTopics = [
+export const lexiconTopics = [
   [
     "Cartoons",
     "Children's Books",
