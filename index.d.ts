@@ -1,12 +1,9 @@
-declare module "lexicon-data";
-
-export = Data;
-
-interface Data {
-  constraints: {
-    simple: string[];
+declare module "lexicon-data" {
+  interface constraints {
     complex: string[];
     physical: string[];
-  };
-  topics: string[][];
+    simple: string[];
+  }
+  
+  type topics = string[][];
 }

@@ -1,4 +1,4 @@
-export const constraints = {
+const constraints = {
   simple: [
     "starting vowel",
     "> five letters",
@@ -17,7 +17,7 @@ export const constraints = {
   physical: ["drawing", "interpretive dance", "selfie pose"],
 };
 
-export const topics = [
+const topics = [
   [
     "Cartoons",
     "Children's Books",
