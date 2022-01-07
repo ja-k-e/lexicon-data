@@ -1,9 +1,9 @@
 declare module "lexicon-data" {
-  interface constraints {
+  const lexiconConstraints: {
     complex: string[];
     physical: string[];
     simple: string[];
   }
   
-  type topics = string[][];
+  const lexiconTopics: string[][];
 }
