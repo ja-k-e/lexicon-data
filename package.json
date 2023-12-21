@@ -6,6 +6,9 @@
     "type": "git",
     "url": "git+https://github.com/jakealbaugh/lexicon-data.git"
   },
+  "scripts": {
+    "test": "echo \"hello\""
+  },
   "author": "Jake Albaugh <jake.albaugh@gmail.com>",
   "license": "MIT",
   "engines": {
